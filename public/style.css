@@ -1,0 +1,147 @@
+body {
+    padding: 5% 15%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+}
+
+label {
+    width: 35%;
+    display: block;
+    float: left;
+    text-align: right;
+}
+label[for=sender_id],
+label[for=supplier_id] {
+    width: 100%;
+    text-align: left;
+}
+
+input,
+textarea {
+    display: block;
+    width: 60%;
+    margin-left: 37%;
+    margin-bottom: 2px;
+    max-width: 300px;
+}
+
+select {
+    width: 100%;
+}
+
+fieldset {
+    text-align: right;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.remove {
+    margin: 0 35px 10px;
+}
+
+button[type=submit] {
+    float: right;
+    margin: 10px;
+}
+
+table {
+    width: 98%;
+    font-size: smaller;
+    margin: 1%;
+}
+
+tr {
+    line-height: 30px;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+td {
+    margin: 10px;
+    border-bottom: 1px solid #aaa;
+}
+
+th {
+    text-align: left;
+    background-color: #eee;
+    border-bottom: 1px solid #aaa;
+}
+
+th:last-child {
+    width: 160px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+    font-size: small;
+}
+
+a:hover {
+    background-color: #333;
+}
+
+#message {
+    background-color: #eee;
+    text-align: center;
+    padding: 5px;
+    font-size: small;
+}
+
+dl {
+    width: 100%;
+    max-width: 550px;
+    overflow: hidden;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+dt {
+    float: left;
+    width: 25%;
+    text-align: right;
+    border-bottom: 1px solid #000;
+    color: #333;
+}
+
+dd {
+    float: left;
+    width: 74%;
+    padding: 0;
+    margin: 0 0 0 1%;
+    border-bottom: 1px solid #eee;
+}
+
+h4 {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button#remove {
+    margin-bottom: 10px;
+}
